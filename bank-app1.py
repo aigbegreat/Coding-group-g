@@ -10,7 +10,6 @@ class BankApp:
         self.create_widgets()
 
     def create_widgets(self):
-        # Create a label for the balance
         self.balance_label = tk.Label(self.master, text="Balance: $0")
         self.balance_label.pack()
 
